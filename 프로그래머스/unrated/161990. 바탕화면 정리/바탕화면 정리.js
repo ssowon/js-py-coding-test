@@ -1,5 +1,6 @@
 function solution(wallpaper) {
     let [lux, luy, rdx, rdy] = [-1, -1, 0, 0];
+    
     for (let i in wallpaper) {
         if(wallpaper[i].includes('#')) {
             let [miny, maxy] = [wallpaper[i].indexOf('#'), wallpaper[i].lastIndexOf('#')]
