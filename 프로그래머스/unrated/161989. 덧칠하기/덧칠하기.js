@@ -1,10 +1,10 @@
 function solution(n, m, section) {
-    var answer = 0;
-    var colored_length = 0;
+    let answer = 0;
+    let colored_length = 0;
     
-    for(i of section) {
-        if(i > colored_length) {
-            colored_length = i + m - 1;
+    for(let wall of section) {
+        if(wall > colored_length) {
+            colored_length = wall + m - 1;
             answer++;
         }
     }
