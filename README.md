@@ -1,5 +1,4 @@
-# js-coding-test
-javascript의 숙련도를 높이기 위해 코딩테스트 문제를 풀어보자!
+# js-py--coding-test
+javascript, python의 숙련도를 높이기 위해 코딩테스트 문제를 풀어보자!
 
-그러나 파이썬으로 풀고싶은 날엔 파이썬으로 ...
 그리고 또 종종 sql풀고싶은 날엔 mysql로 ...
